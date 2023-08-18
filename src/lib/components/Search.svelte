@@ -20,12 +20,14 @@
 		"
 >
 	<MagnifyingGlass />
+	<!-- svelte-ignore a11y-autofocus -->
 	<input
 		{id}
 		aria-label="Search"
 		autocapitalize="none"
 		autocomplete="off"
 		autocorrect="off"
+		autofocus
 		bind:this={input}
 		bind:value
 		class="w-full bg-transparent outline-none"
